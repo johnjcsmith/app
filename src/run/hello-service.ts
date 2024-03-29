@@ -2,7 +2,7 @@
 // without running it. This is useful for unit testing.
 // It's up to you whether you want to separate the service from the run file or not.
 
-import { helloService } from "../services/hello";
+import helloService from "../services/hello";
 
 helloService.start().then(() => {
   console.log(`Hello service started on pid ${process.pid}!`);

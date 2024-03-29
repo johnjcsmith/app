@@ -6,7 +6,7 @@ async function hello(from: string) {
   return `Hello ${from}! I'm a service running on pid ${process.pid}!`;
 }
 
-export const helloService = d.service({
+export default d.service({
   name: "hello",
   functions: {
     hello,

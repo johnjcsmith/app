@@ -1,5 +1,5 @@
 import assert from "assert";
-import { helloService } from "./hello";
+import helloService from "./hello";
 import test from "node:test";
 
 test("hello: must greet the caller", async () => {

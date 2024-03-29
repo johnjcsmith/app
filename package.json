@@ -4,6 +4,7 @@
   "description": "A scaffolding for differential.dev apps",
   "bin": "setup.sh",
   "type": "module",
+  "main": "./src/run/hello-service.ts",
   "scripts": {
     "test": "node --import tsx --test src/**/*.test.ts",
     "setup": "./scripts/setup.sh"
